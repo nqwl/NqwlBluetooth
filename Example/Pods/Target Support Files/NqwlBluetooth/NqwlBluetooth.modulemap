@@ -1,0 +1,6 @@
+framework module NqwlBluetooth {
+  umbrella header "NqwlBluetooth-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -352,10 +352,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NqwlBluetooth_Example/Pods-NqwlBluetooth_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BabyBluetooth/BabyBluetooth.framework",
 				"${BUILT_PRODUCTS_DIR}/NqwlBluetooth/NqwlBluetooth.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BabyBluetooth.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NqwlBluetooth.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

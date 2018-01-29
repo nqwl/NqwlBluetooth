@@ -1,0 +1,6 @@
+framework module Pods_NqwlBluetooth_Example {
+  umbrella header "Pods-NqwlBluetooth_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

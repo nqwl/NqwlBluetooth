@@ -1,0 +1,19 @@
+PODS:
+  - BabyBluetooth (0.7.0)
+  - NqwlBluetooth (0.1.0):
+    - BabyBluetooth
+
+DEPENDENCIES:
+  - NqwlBluetooth (from `../`)
+
+EXTERNAL SOURCES:
+  NqwlBluetooth:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BabyBluetooth: d50758aecf24d4a0ab9271d69f0f116d6bee51c9
+  NqwlBluetooth: 9afd2636c078f3c4370d78712ad4bdc23335dc86
+
+PODFILE CHECKSUM: 28da89e67131f2ca87924f589c1ad5c1bd427d6b
+
+COCOAPODS: 1.4.0.rc.1
