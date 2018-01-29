@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NqwlBluetooth_Example' do
+  pod 'NqwlBluetooth', :path => '../'
+
+  target 'NqwlBluetooth_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
